@@ -1,16 +1,214 @@
-<html>
-	<head>
-		<title> Minha Home Page </title>
-	</head>
-		<body>
-			<h1 style="text-align:center">
-			
-		
-			<center>
-				<a href ="https://github.com/LuisGustavoRosa/LuisGustavoRosa.github.io"target="blank">
-					<img src="imagem/foto.jpg"alt="Foto do gustavo"/></a></h1>
-			</center>
-			<h1>	Bem vindo a minha página</h1>
-			<p> olá, eu me chamo Luis gustavo rosa</p>
-		</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+  <title>Pousada Noeli</title>
+
+  <style>
+    .carousel-inner img {
+      width: 90%;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="espaço">
+    <header class="jumpotron text-center">
+
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="img/pousada25.jpg" alt="" width="" height="450">
+        <div class="card-img-overlay">
+        </div>
+      </div>
+
+
+
+    </header>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">
+      <img src="img/pousada/foto20.jpg" width="70" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" onclick="home()">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="cadastro()">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" onclick="fotos()">Fotos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" onclick="sobre()">Sobre Nós</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+
+      </form>
+    </div>
+  </nav>
+
+  <section>
+    
+  </section>
+
+  <footer class="page-footer font-small unique-color-dark">
+
+    <div style="background-color: #d8d5eb;">
+      <div class="container">
+
+
+        <div class="row py-4 d-flex align-items-center">
+
+
+
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Siga a gente em nossas redes sociais.</h6>
+          </div>
+
+
+
+
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="container text-center text-md-left mt-5">
+
+
+      <div class="row mt-3">
+
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+
+          <h6 class="text-uppercase font-weight-bold">Sobre Nós</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Somos uma pousada a mais de 10 anos, buscando sempre o conforto
+            e segurança de nossos clientes.
+            Venha fazer parte dessa familia.</p>
+
+        </div>
+
+
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="https://www.w3schools.com/default.asp">W3Schools</a>
+          </p>
+          <p>
+            <a href="#!">HTML</a>
+          </p>
+          <p>
+            <a href="#!">CSS</a>
+          </p>
+          <p>
+            <a href="#!">JS</a>
+          </p>
+
+        </div>
+
+
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="index.html#">Home</a>
+          </p>
+          <p>
+            <a
+              href="https://www.facebook.com/pousadanoeli/?hc_ref=ARSYoEJRJDL9SQ1p7NKh0OKGBW55jgCGrTskYkCgGVdncyimkj7bLG_I2KJoHfiTDKU&__xts__[0]=68.ARDXPscJOTLXaQLFd1PWkAGzcRdGeTRDB4geIwjxGiw0PML-oScRMV-qC4E8PuxFDj3DdZaivUNIb20pO1aq3Kj_lf2s06e9zjAsJvJ6YWUnGr250pwycZkPxwN0MoFUxYvkWXvDZ87XUzdRaumkdy0aXR1bgkbxeqJMvx1lom5i7saWl0y1itiumFxilpEe2GPbPQAkayfVZSSAaF1Oo17vMxYQgQY9I6U3dC5toNdfVsPkdjWKcprFnKyxGvPnxLmdGDS0SiNcleObeoYg_RxG3BTBq16wjAICxzEnTjdUW4hc&__tn__=kC-R">Curta
+              nossa página no facebook</a>
+          </p>
+          <p>
+            <a href="cadastro.html">Cadastre-se</a>
+          </p>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Torres, RS 2019</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> pousadanoeli@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +55 51 99619-7028</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> +55 51 99731-8990</p>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+    <div class="footer-copyright text-center py-3"> 2019 :
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+  </footer>
+
+
+
+
+
+</body>
+
 </html>
