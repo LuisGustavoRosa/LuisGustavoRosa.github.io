@@ -11,7 +11,7 @@ $(document).ready(function () {
         $("section").load('cadastro.html');
     });
 
-    $("sobre").click(function () {
+    $("#sobre").click(function () {
         $("section").load('sobre.html');
     });
 });
