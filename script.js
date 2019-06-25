@@ -1,16 +1,15 @@
 $(document).ready(function () {
+   
+   
     $("#home").click(function () {
-        $("section").load('home.html');
+    $("section").load('home.html');
     });
-
-    $("#fotos").click(function () {
-        $("section").load('fotos.html');
-    });
-
     $("#cadastro").click(function () {
-        $("section").load('cadastro.html');
+    $("section").load('cadastro.html');
     });
-
+    $("#fotos").click(function () {
+    $("section").load('fotos.html');
+    });
     $("#sobre").click(function () {
         $("section").load('sobre.html');
     });
