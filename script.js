@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   
+    $("section").load('home.html');
    
     $("#home").click(function () {
     $("section").load('home.html');
