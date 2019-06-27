@@ -1,16 +1,16 @@
 $(document).ready(function () {
     $("section").load('home.html');
    
-    $("#home").click(function () {
+    $("#home").click(function (){
     $("section").load('home.html');
     });
-    $("#cadastro").click(function () {
+    $("#cadastro").click(function (){
     $("section").load('cadastro.html');
     });
-    $("#fotos").click(function () {
+    $("#fotos").click(function (){
     $("section").load('fotos.html');
     });
-    $("#sobre").click(function () {
+    $("#sobre").click(function (){
         $("section").load('sobre.html');
     });
 });
